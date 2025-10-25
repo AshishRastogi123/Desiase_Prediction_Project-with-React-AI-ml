@@ -1,0 +1,80 @@
+body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+
+    .main {
+      background-image: url("https://t3.ftcdn.net/jpg/02/19/91/48/360_F_219914874_fcqxEeJ6clfwf43OcCNAMGNBySKzF5hl.jpg");
+      background-size: cover;
+      background-position: center;
+      max-width: 100%;
+      height: auto;
+      color: #fff; 
+    }
+    
+    .navbar-custom {
+      background-color: #0d47a1;
+    }
+
+    .logo {
+      color: #ff7200;
+      font-size: 32px;
+      font-family: Arial, sans-serif;
+      font-weight: bold;
+    }
+
+    .nav-link {
+      color: #fff !important;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .nav-link:hover {
+      color: #ff7200 !important;
+    }
+    .content{
+      padding-bottom:8%;
+    }
+    .content h4 {
+      font-size: 2vw;
+      letter-spacing: 2px;
+      margin-top: 15%;
+      font-family: Georgia, serif;
+      color: #2d0278;
+      font-weight: bold;
+      
+    }
+
+    .content span {
+    font-weight: bold;
+      color: #2d0278;
+      font-size: 4vw;
+    }
+
+    .content .par {
+      font-family: Arial, sans-serif;
+      letter-spacing: 1.2px;
+      color: #2d0278;
+      font-weight: bold;
+      font-size: 1.5vw;
+      
+    }
+
+    .cn {
+      background-color: blue;
+      border: none;
+      border-radius: 18px;
+      padding: 10px 20px;
+      color: white;
+      font-size: clamp(1px, 2vw, 24px); 
+      
+      transition: 0.4s ease;
+      text-decoration: none;
+      
+    }
+
+    .cn:hover {
+      background-color: white;
+      color: black;
+    }
